@@ -1,10 +1,6 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
 	import { Button } from '$components';
-
-	function onclick(): void {
-		goto('/#contact-form');
-	}
 </script>
 
 <section class="default-margin pt-14">

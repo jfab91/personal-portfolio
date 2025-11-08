@@ -16,16 +16,16 @@
 </script>
 
 <section class="default-margin pt-14">
-	<h3 class="text-4xl/[1.1]">Hello I'm Fabricio</h3>
+	<h3 class="text-2xl sm:text-4xl/[1.1]">Hello I'm Fabricio</h3>
 	<div class="bg-dark-gray mb-8 h-1 w-10"></div>
-	<h1>
+	<h1 class="text-[80px] leading-[1.1] font-bold sm:text-2xl">
 		{#each words1 as word, i}
 			<span class="word inline-block" class:visible style="--delay: {i * 0.1}s">
 				{word}
 			</span>{' '}
 		{/each}
 	</h1>
-	<h1 class="text-dark-gray mb-8">
+	<h1 class="text-dark-gray mb-8 text-7xl leading-[1.1] font-bold">
 		{#each words2 as word, i}
 			<span class="word inline-block" class:visible style="--delay: {(words1.length + i) * 0.1}s">
 				{word}

@@ -5,8 +5,8 @@
 
 	let visible = false;
 
-	const text1 = "I'm a Software Developer crafting intuitive and performant";
-	const text2 = 'web experiencies';
+	const text1 = 'I’m a Software Developer turning complex ideas into seamless';
+	const text2 = 'scalable systems';
 	const words1 = text1.split(' ');
 	const words2 = text2.split(' ');
 

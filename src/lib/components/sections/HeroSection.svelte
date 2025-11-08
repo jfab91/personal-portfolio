@@ -10,6 +10,10 @@
 	const words1 = text1.split(' ');
 	const words2 = text2.split(' ');
 
+	function openLinkedIn() {
+		window.open('https://www.linkedin.com/in/jfab91/', '_blank');
+	}
+
 	onMount(() => {
 		visible = true;
 	});
@@ -32,7 +36,7 @@
 			</span>{' '}
 		{/each}
 	</h1>
-	<Button onclick={() => goto('/#contact-form')}>Let's talk</Button>
+	<Button onclick={openLinkedIn}>Let's talk</Button>
 </section>
 
 <style>

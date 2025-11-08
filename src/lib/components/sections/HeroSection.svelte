@@ -19,17 +19,17 @@
 	});
 </script>
 
-<section class="mx-[10vw] max-w-[960px] pt-14 lg:mx-[20vw]">
+<section class="mx-[10vw] max-w-[960px] pt-9 md:pt-14 lg:mx-[20vw]">
 	<h3 class="text-2xl leading-[1.3]">Hello I'm Fabricio</h3>
 	<div class="bg-dark-gray mb-8 h-1 w-10"></div>
-	<h1 class="text-[52px] leading-[1.1] font-bold md:text-6xl lg:text-[80px]">
+	<h1 class="text-6xl leading-[1.1] font-bold md:text-6xl lg:text-[80px]">
 		{#each words1 as word, i}
 			<span class="word inline-block" class:visible style="--delay: {i * 0.1}s">
 				{word}
 			</span>{' '}
 		{/each}
 	</h1>
-	<h1 class="text-dark-gray mb-8 text-[52px] leading-[1.1] font-bold md:text-6xl lg:text-[80px]">
+	<h1 class="text-dark-gray mb-8 text-6xl leading-[1.1] font-bold md:text-6xl lg:text-[80px]">
 		{#each words2 as word, i}
 			<span class="word inline-block" class:visible style="--delay: {(words1.length + i) * 0.1}s">
 				{word}

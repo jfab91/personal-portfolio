@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { SectionHeadline, ExperienceTable } from '$components';
 	import photo from '$assets/about-me.webp';
+	import cv from '$assets/CV_Fabricio_Vargas.pdf';
 	import Button from '../Button.svelte';
 	import { goto } from '$app/navigation';
 	import type { WorkExperience } from '../../types/sanity';
@@ -10,6 +11,13 @@
 	}
 
 	let { experience }: AboutProps = $props();
+
+	function downloadCV() {
+		const link = document.createElement('a');
+		link.href = cv;
+		link.download = 'CV_Fabricio_Vargas.pdf';
+		link.click();
+	}
 </script>
 
 <section class="about-me mt-16">
@@ -39,8 +47,7 @@
 				your project, I’d love to hear from you. Whether you’re starting from scratch or want to
 				take your system to the next level, let’s talk and make it happen.
 			</p>
-			<Button class="mt-8" onclick={() => goto('/#contact-form')}>Tell me about your project</Button
-			>
+			<Button class="mt-8" onclick={downloadCV}>Explore my background</Button>
 		</div>
 	</div>
 	<ExperienceTable {experience} />

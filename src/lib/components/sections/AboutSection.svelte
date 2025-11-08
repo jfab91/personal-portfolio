@@ -18,22 +18,26 @@
 		<img class="w-[42%] rounded-2xl object-cover" src={photo} alt="" />
 		<div class="w-[55%] text-left">
 			<p>
-				Hey, I'm Fabricio, orem ipsum dolor sit amet, consectetur adipiscing elit. Integer at
-				viverra nulla. Aenean eget ligula vestibulum libero cursus bibendum non rutrum eros.
-				Suspendisse ut quam eget tellus malesuada dignissim eu sed odio. Nullam in leo massa. In et
-				sapien sollicitudin, dictum nibh quis, volutpat metus.
+				Hey there! I'm Fabricio, a backend software engineer passionate about building solutions
+				that truly work. Over the past few years, I’ve been designing and scaling cloud-based
+				systems using .NET, Node.js, NestJS, PostgreSQL, MongoDB, and Redis, while crafting solid
+				architectures on Azure and DigitalOcean. I love seeing how a strong technical foundation can
+				turn an idea into something that genuinely impacts people.
 			</p>
 			<p>
-				Etiam velit metus, bibendum vel mauris sed, pellentesque molestie urna. Pellentesque dictum
-				dui quis orci lacinia elementum. Donec vehicula gravida nunc, quis auctor quam suscipit
-				sollicitudin. Integer ultrices at ex quis tincidunt. Suspendisse vitae velit pretium dui
-				aliquet hendrerit sit amet nec augue. Nunc egestas mattis ligula et dictum.
+				More than just writing code, I enjoy understanding the “why” behind every project. I focus
+				on creating efficient, secure, and maintainable products — but also meaningful ones. My
+				curiosity has led me to explore areas like education, gamification, and automation, always
+				driven by the idea that technology should make life simpler and better.
 			</p>
 			<p>
-				Aliquam a diam fermentum, pulvinar sem sit amet, lacinia eros. Phasellus convallis ultrices
-				quam, nec iaculis tellus condimentum vel. Etiam imperdiet dapibus magna, id molestie ipsum
-				aliquam nec. Vestibulum id dapibus quam, ut iaculis odio. Quisque sodales vestibulum ipsum,
-				ut laoreet urna tristique eu. Mauris vel eros ex. Nullam dapibus pulvinar pulvinar.
+				I believe great engineering and clear communication go hand in hand. I enjoy working with
+				teams that value collaboration, attention to detail, and ideas that are executed with care.
+			</p>
+			<p>
+				If you’re looking for someone who understands both the technical side and the purpose behind
+				your project, I’d love to hear from you. Whether you’re starting from scratch or want to
+				take your system to the next level, let’s talk and make it happen.
 			</p>
 			<Button class="mt-8" onclick={() => goto('/#contact-form')}>Tell me about your project</Button
 			>
